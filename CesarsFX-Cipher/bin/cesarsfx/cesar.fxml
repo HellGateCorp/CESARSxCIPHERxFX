@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="550.0" scaleShape="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cesarsfx.FXMLController">
+   <children>
+      <SplitPane dividerPositions="0.3341708542713568, 0.678391959798995" layoutX="1.0" layoutY="52.0" orientation="VERTICAL" prefHeight="450.0" prefWidth="549.0" scaleShape="false">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField fx:id="eingabeR" alignment="CENTER" focusTraversable="false" onAction="#nonEditableArabic" onMouseClicked="#nonEditableArabic" prefHeight="145.0" prefWidth="548.0" promptText="Roma">
+                     <font>
+                        <Font name="Rockwell Bold Italic" size="46.0" />
+                     </font></TextField>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField fx:id="eingabeA" alignment="CENTER" focusTraversable="false" onAction="#nonEditableRoma" onMouseClicked="#nonEditableRoma" prefHeight="146.0" prefWidth="548.0" promptText="Arabic">
+                     <font>
+                        <Font name="Rockwell Bold Italic" size="46.0" />
+                     </font></TextField>
+               </children>
+            </AnchorPane>
+            <AnchorPane blendMode="EXCLUSION" layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="187.0" prefWidth="350.0">
+               <children>
+                  <Button fx:id="button" layoutX="34.0" layoutY="15.0" mnemonicParsing="false" onAction="#translate" prefHeight="110.0" prefWidth="326.0" text="Tradurre">
+                     <font>
+                        <Font name="Rockwell Bold Italic" size="44.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="reset" defaultButton="true" layoutX="402.0" layoutY="37.0" mnemonicParsing="false" onAction="#reset" prefHeight="66.0" prefWidth="109.0" text="Reset" underline="true">
+                     <font>
+                        <Font name="Rockwell Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <SplitPane dividerPositions="0.9310344827586207" layoutX="1.0" layoutY="2.0" orientation="VERTICAL" prefHeight="50.0" prefWidth="550.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label blendMode="HARD_LIGHT" prefHeight="40.0" prefWidth="547.0" text=" I = 1,   V = 5,   X = 10,  L = 50,   C = 100,   D = 500,  M = 1000">
+                     <font>
+                        <Font name="Rockwell Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <ImageView fx:id="image" blendMode="HARD_LIGHT" disable="true" fitHeight="299.0" fitWidth="550.0" layoutY="53.0" pickOnBounds="true" smooth="false" visible="false">
+         <image>
+            <Image url="@../icon/coin-4545683__340.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
