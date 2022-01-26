@@ -3,4 +3,4 @@
 ![C-FX3](https://user-images.githubusercontent.com/83019866/119243200-e8b17600-bb64-11eb-8d15-9db514a60370.png)
 # CesarsFX-Cipher
 
-A JavaFX based Application that calculate you the given Ciphers for Arab(0-9) or Roma(IXC) 🕌🏛
+A JavaFX based crossplatformed Application that calculate you the given Ciphers for Arab(0-9) to Roma(IXC), or Roma (IXC) to Arab(0-9). But only in the validity of the Romma Based Numbersystem. 🕌🏛
