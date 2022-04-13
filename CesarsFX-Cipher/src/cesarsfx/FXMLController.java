@@ -250,6 +250,7 @@ public class FXMLController {
 	}
 	
 	//Chiffriert in verschiedenen Etappen die gesuchte Zahl
+	// MCXI ----> 0-9
 	private void chiffriereRomaToArabic() {
 		int slave=0, count = 0;
 		//Geht das Array #Zahlen in 2-er Schritten durch und vergleicht auf A<B,
