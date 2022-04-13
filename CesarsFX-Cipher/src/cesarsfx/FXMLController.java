@@ -161,7 +161,7 @@ public class FXMLController {
 		}
 	}
 	
-	//Dechiffriert die Chiffre in Zeichen, überprüft diese
+	//Zerlegt die zu dechifrierende Chiffre in ihrer gesamten Länge in einzelne Zeichen, überprüft diese
 	//auf ihre Gültigkeit und erzeugt ein Integer-Array #Zahlen
 	// welches mit Zahlen gefüllt wird
 	private void dechiffriereZahlRoma() {
