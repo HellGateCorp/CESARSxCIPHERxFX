@@ -4,4 +4,4 @@
 # CesarsFX-Cipher
 
 A JavaFX based crossplatformed Application that transform for you your given inputed Ciphers from Arabic(0-9) to Roma(IXC) Token or backwards, powered by an unique magical Algorithm. 🏛🕌🔮
-#finalexcam=A
+#finalexcam100/100
