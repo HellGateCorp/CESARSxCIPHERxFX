@@ -21,7 +21,7 @@ public class CesarsFX extends Application{
 		//an den Konstruktor werden der oberste Knoten und die Größe übergeben
 		Scene meineScene = new Scene(root, 550, 502);
 		//den Titel über stage setzen
-		meineStage.setTitle("Cesar-VeniVidiViciV1.0");
+		meineStage.setTitle("CesarsFX-Cipher (VeniVidiViciV1.0)");
 		//die Szene setzen
 		meineStage.setScene(meineScene);
 		//und anzeigen
