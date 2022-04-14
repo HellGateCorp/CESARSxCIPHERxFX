@@ -269,9 +269,11 @@ public class FXMLController {
 					//formt 2x char zu 1x String für die Überprüfung auf ihre 
 					//Existenzberechtigung in dieser Art der Kombination..
 					frame = charray[slave] + "" + charray[iMaster];
-					//durch die Übergabe des A<B Charakters
-					//an folgende Schleife
+					//durch die Übergabe des A<B Charakters an folgende Schleife 
+					//und mit Hilfe des zuvor definierten Arrays #Elemente
 					for(int i=0; i< elemente.length;i++) {
+						//Validiert wird durch den Vergleich auf unstimmigkeiten durch
+						//den zuvor zusammengesetzten Frames und dem Arrays #Elemente
 						if(frame.compareTo(elemente[i].buchstabe) == 0) {
 							//wenn vorhanden ...
 							valid=true;
