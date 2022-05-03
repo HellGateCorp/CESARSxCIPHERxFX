@@ -167,8 +167,7 @@ public class FXMLController {
 	private void dechiffriereZahlRoma() {
 		zahlen = new int[zahlRoma.length()];
 		charray = new char[zahlRoma.length()];
-		char einer;
-		
+
 		//Liest die Buchstaben einzeln in ein Array ein
 		for (int i=0; i<zahlRoma.length(); i++) {					
 			charray[i] = zahlRoma.charAt(i);	
