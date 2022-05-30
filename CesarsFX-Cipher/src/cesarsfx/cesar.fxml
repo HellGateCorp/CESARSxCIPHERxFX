@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="555.0" scaleShape="false" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cesarsfx.FXMLController">
+   <children>
+      <SplitPane dividerPositions="0.3577023498694517, 0.6370757180156658" layoutX="1.0" layoutY="53.0" orientation="VERTICAL" prefHeight="385.0" prefWidth="549.0" scaleShape="false">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField fx:id="eingabeR" alignment="CENTER" focusTraversable="false" layoutX="1.0" layoutY="1.0" onAction="#nonEditableArabic" onMouseClicked="#nonEditableArabic" prefHeight="130.0" prefWidth="545.0" promptText="Roma">
+                     <font>
+                        <Font name="Rockwell" size="55.0" />
+                     </font></TextField>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="77.0" prefWidth="547.0">
+               <children>
+                  <Button fx:id="translate" defaultButton="true" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#translate" prefHeight="60.0" prefWidth="173.0" text="translate">
+                     <font>
+                        <Font name="Phosphate Inline" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="reset" blendMode="EXCLUSION" layoutX="225.0" layoutY="30.0" mnemonicParsing="false" onAction="#reset" prefHeight="39.0" prefWidth="98.0" text="Reset">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="random" defaultButton="true" layoutX="360.0" layoutY="19.0" mnemonicParsing="false" onAction="#random" prefHeight="60.0" prefWidth="173.0" text="random">
+                     <font>
+                        <Font name="Phosphate Inline" size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="71.0" prefWidth="547.0">
+               <children>
+                  <TextField fx:id="eingabeA" alignment="CENTER" focusTraversable="false" layoutX="1.0" layoutY="3.0" onAction="#nonEditableRoma" onMouseClicked="#nonEditableRoma" prefHeight="130.0" prefWidth="545.0" promptText="Arabic">
+                     <font>
+                        <Font name="Rockwell" size="55.0" />
+                     </font></TextField>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <AnchorPane layoutX="13.0" layoutY="445.0" minHeight="0.0" minWidth="0.0" prefHeight="39.0" prefWidth="530.0">
+         <children>
+            <Label blendMode="HARD_LIGHT" layoutX="1.0" prefHeight="39.0" prefWidth="529.0" text=" I = 1,   V = 5,   X = 10,  L = 50,   C = 100,   D = 500,  M = 1000">
+               <font>
+                  <Font name="Rockwell Bold Italic" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="11.0" layoutY="8.0" minHeight="0.0" minWidth="0.0" prefHeight="39.0" prefWidth="530.0">
+         <children>
+            <Label blendMode="HARD_LIGHT" layoutX="1.0" prefHeight="39.0" prefWidth="529.0" text=" I = 1,   V = 5,   X = 10,  L = 50,   C = 100,   D = 500,  M = 1000">
+               <font>
+                  <Font name="Rockwell Bold Italic" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
