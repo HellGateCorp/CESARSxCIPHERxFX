@@ -17,3 +17,7 @@ A JavaFX based crossplatformed Application that transform your given inputed Cip
 #finalexcam100/100
 
 You can run it under Runtime Version 1.8.0, where JavaFX was build into it. 
+
+# Changelog
+-new Design
+-random function
