@@ -7,10 +7,6 @@
 ![main](https://user-images.githubusercontent.com/83019866/171016785-7596988e-72bf-49c6-96f1-57182d98657e.png)
 ![random](https://user-images.githubusercontent.com/83019866/171016806-78e7ca10-b9c3-41ca-8e7c-907d33d3e36e.png)
 ![invalid](https://user-images.githubusercontent.com/83019866/171016815-ea49ec28-b291-463f-8ae3-1aba810b5677.png)
-# Changelog
--new Design
--random function
-
 # CesarsFX-Cipher
 
 A JavaFX based crossplatformed Application that transform your given inputed Ciphers from Arabic(0-9) to Roma(IXC) Token or backwards, powered by an unique magical Algorithm. 🏛🕌🔮
